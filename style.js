@@ -13,13 +13,35 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+(function () {
+  // if ($(".typed  p span").length) {
+  //   $(".typed p span").typed({
+  //     strings: [" en genie logiciel.", " Full Stack.", " Java Spring/ Angular."],
+  //     typeSpeed: 50
+  //   });
+  // }
+  // console.log("Hello BB");
+  // $("#changeTitre").mouseleave(function () {
+  //   console.log("Hello dan la fct");
 
-$(document).ready(function () {
-  $('#idAbout').click(function () {
-    console.log("Hello");
-    $('.block-content').fadeIn(3000);
-    
-  });
+  // });
+});
+
+// $(document).ready(function () {
+//   $('.block-content').mouseenter(function () {
+//     $('.block-content').css('color', 'black');
+//   });
+//   $('.block-content').mouseout(function () {
+//     $('.block-content').css('color', 'white');
+//   });
+
+//   if ($("#typed").length) {
+//     $("#typed").typed({
+//       strings: ["genie logiciel.","Jonathon Doe.", "a developer.", "a designer.", "a traveler."],
+//       typeSpeed: 50
+//     });
+//   }
+
   // $('#experience').hide();
   // $('#education').hide();
   // $('#competance').hide();
@@ -74,4 +96,4 @@ $(document).ready(function () {
   //     $('awards').show();
   // });
 
-})
+// })
